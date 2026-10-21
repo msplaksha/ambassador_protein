@@ -1,0 +1,11 @@
+{
+  "name": "ai-era-biology",
+  "version": "1.0.0",
+  "description": "The AI Era of Biology: interactive lessons",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}
