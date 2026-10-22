@@ -220,6 +220,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 <div class="wrap" id="root">
   <div class="top" id="top" hidden></div>
   <main id="main" aria-live="polite"><p class="lead">Loading…</p></main>
+   <footer class="cred">Created - Dr. Monika Sharma - Plaksha University</footer>
 </div>
 
 <script src="config.js"></script>
@@ -1103,7 +1104,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   /* ---------------- welcome ---------------- */
   function viewWelcome() {
     var cloud = S.mode === "cloud";
-    return '<section class="welcome"><div class="eyebrow">Class 11 Biology · 11 short parts</div><h1 class="title">The AI Era of Biology</h1>' +
+    return '<section class="welcome"><div class="eyebrow"> Biology beyond Textbook</div><h1 class="title">The AI Era of Biology</h1>' +
       '<p class="lead">Learn how computers read DNA, predict protein shapes and help edit genes. You will do short activities and answer quick questions. Your teacher will tell you which parts to do today, and can see your progress.</p>' +
       (S.banner ? '<div class="banner">' + esc(S.banner) + "</div>" : "") +
       (S.mode === "local" && !S.banner && typeof claude !== "undefined" ? '<div class="banner">You are not signed in, so your progress is saved on this device only and your teacher cannot see it.</div>' : "") +
